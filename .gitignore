@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / CUDA extensions and build artifacts
+*.so
+*.o
+*.obj
+*.ninja
+.ninja_deps
+.ninja_log
+build/
+
+# Distribution / packaging
+dist/
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and training outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+logs/
+runs/
+output/
+checkpoints/
+*.log
